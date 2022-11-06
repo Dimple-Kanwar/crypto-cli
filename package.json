@@ -1,0 +1,31 @@
+{
+  "name": "crypto-cli",
+  "version": "1.0.0",
+  "description": "Token CLI program to fetch the portfolio of the crypto transactions",
+  "main": "main.js",
+  "bin": {
+    "crypto": "./main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "token",
+    "cli",
+    "nodejs",
+    "crypto"
+  ],
+  "author": "Dimple-Kanwar",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  }
+}
