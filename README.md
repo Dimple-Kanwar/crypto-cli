@@ -1,4 +1,7 @@
-# crypto CLI program in nodejs
+# Token CLI program
+
+## Programming langauge:  nodejs
+
 ## Dependencies:
 
 - csv-parser: To parse the CSV file content.
@@ -27,6 +30,7 @@ Let us assume you are a crypto investor. You have made transactions over a perio
 ## How to run the program ?
 
 > **Note:** Please add the transactions.csv in the root folder to run this program.
+
 > **Note:** tokenInfo is the command name
 
 sample content of transactions.csv file for testing:
