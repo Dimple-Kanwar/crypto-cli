@@ -251,7 +251,9 @@ const dateToEpochTime = date => {
 ### 8. Getting the balance of token in USD from cryptocompare
 
 I have gone through the cryptocompare API documentation where I found https://min-api.cryptocompare.com/data/price
-endpoint need to be used to get the balance of token in USD. I have created free API key to make use of this endpoint in our app which I have stored in .env file. We need to pass three query params in this case fsym, tsyms and api_key. 
+endpoint need to be used to get the balance of token in USD. I have created free API key to make use of this endpoint in our app which I have stored in .env file. 
+
+We need to pass three query params in this case fsym, tsyms and api_key. 
 
 - fsym: the token name, 
 - tsyms: USD as we need to token balance in USD
